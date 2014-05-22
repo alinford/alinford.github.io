@@ -1,0 +1,17 @@
+<div class="hero container">
+    <form novalidate class="addersubtractor-form">
+        <div class="row">
+            X = <input type="number" placeholder=" enter an integer" ng-pattern="/^-?[0-9]$/" name="X" ng-model="addersubtractor.X" required>
+        </div>
+        <div class="row">
+            Y = <input type="number" placeholder=" enter an integer" ng-pattern="/^-?[0-9]$/" name="Y" ng-model="addersubtractor.Y" required>
+        </div>
+        <div class="col-sm-6">
+            <button class="btn btn-primary pull-right btn-custom" ng-click="add()">+</button>
+        </div>
+        <div class="col-sm-6">
+            <button class="btn btn-primary pull-left btn-custom" ng-click="subtract()">-</button>
+        </div>
+    </form>
+</div>
+<h3 class="text-center">{{addersubtractor.result}}</h3>

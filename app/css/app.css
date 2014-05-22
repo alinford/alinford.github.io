@@ -1,0 +1,58 @@
+/* app css stylesheet */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #888;
+    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5 {
+    color: darkgrey;
+}
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 300;
+}
+.header {
+    padding-top: 50px;
+    border-bottom: 1px solid darkgrey;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top: 1px solid darkgrey;
+}
+.container {
+    margin: 0 auto;
+    width: 730px;
+}
+.hero {
+    text-align: center;
+    padding: 22px 80px 22px 80px;
+    background-color: lightgray;
+    border-radius: 7px;
+    display: table;
+}
+.addersubtractor-form {
+    margin-left: auto;
+    margin-right: auto;
+}
+.addersubtractor-form input.ng-invalid.ng-dirty {
+    background-color: #FA787E;
+}
+.addersubtractor-form input.ng-valid.ng-dirty {
+    background-color: #78FA89;
+}
+.btn-custom {
+    box-shadow: 10px 10px 5px #888;
+}
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
